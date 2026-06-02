@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tusha Yadav | Portfolio Resume</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    color:#333;
+}
+
+.container{
+    max-width:1200px;
+    margin:20px auto;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Header */
+
+.header{
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+    padding:60px 20px;
+}
+
+.header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:6px solid white;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.header h1{
+    font-size:42px;
+}
+
+.header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social a{
+    text-decoration:none;
+    color:white;
+    margin:5px;
+    padding:10px 18px;
+    border:1px solid white;
+    border-radius:25px;
+    transition:.3s;
+}
+
+.social a:hover{
+    background:white;
+    color:#2563eb;
+}
+
+/* Main */
+
+.content{
+    display:grid;
+    grid-template-columns:320px 1fr;
+}
+
+.sidebar{
+    background:#0f172a;
+    color:white;
+    padding:30px;
+}
+
+.sidebar h2{
+    margin-bottom:15px;
+    border-bottom:2px solid #3b82f6;
+    padding-bottom:8px;
+}
+
+.sidebar ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.sidebar li{
+    margin:12px 0;
+}
+
+.skill-box{
+    margin-bottom:15px;
+}
+
+.skill-name{
+    margin-bottom:5px;
+}
+
+.bar{
+    height:10px;
+    background:#334155;
+    border-radius:20px;
+}
+
+.fill{
+    height:100%;
+    background:#3b82f6;
+    border-radius:20px;
+}
+
+.main{
+    padding:35px;
+}
+
+.section{
+    margin-bottom:35px;
+}
+
+.section h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.card{
+    background:#f8fafc;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:15px;
+    border-left:5px solid #2563eb;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:900px){
+
+.content{
+    grid-template-columns:1fr;
+}
+
+.sidebar{
+    order:2;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h1>Tusha Yadav</h1>
+
+<p>Python Developer | Flask Developer | Graphic Designer</p>
+
+<div class="social">
+<a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+<a href="#">Portfolio</a>
+</div>
+
+</div>
+
+<div class="content">
+
+<div class="sidebar">
+
+<h2>Contact</h2>
+
+<ul>
+<li>📧 tushayadav303@gmail.com</li>
+<li>📍 Delhi, India</li>
+<li>📞 +91 XXXXX XXXXX</li>
+</ul>
+
+<h2>Skills</h2>
+
+<div class="skill-box">
+<div class="skill-name">Python</div>
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill-box">
+<div class="skill-name">Flask</div>
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+<div class="skill-box">
+<div class="skill-name">HTML</div>
+<div class="bar"><div class="fill" style="width:88%"></div></div>
+</div>
+
+<div class="skill-box">
+<div class="skill-name">Graphic Design</div>
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill-box">
+<div class="skill-name">Git & GitHub</div>
+<div class="bar"><div class="fill" style="width:75%"></div></div>
+</div>
+
+<h2>Languages</h2>
+
+<ul>
+<li>Hindi</li>
+<li>English</li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="section">
+
+<h2>About Me</h2>
+
+<p>
+I am a passionate Python and Flask developer currently pursuing
+a Bachelor of Arts degree .
+I enjoy building web applications, solving programming problems,
+designing user interfaces, and learning new technologies.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Education</h2>
+
+<div class="card">
+<h3>Bachelor of Arts (BA)</h3>
+<p>Open University</p>
+<p>2025 - Present</p>
+</div>
+
+<div class="card">
+<h3>Senior Secondary (12th)</h3>
+<p>Completed Higher Secondary Education</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Projects</h2>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800">
+
+<h3>Job Search Application</h3>
+
+<p>
+Developed a Flask-based job portal with user authentication,
+job listings, search functionality, and SQLite database.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800">
+
+<h3>Computer Institute Management System</h3>
+
+<p>
+Built a complete student registration and course
+recommendation system with installment management.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800">
+
+<h3>Restaurant Recommendation App</h3>
+
+<p>
+Created a smart restaurant recommendation system
+based on budget, taste, and regional preferences.
+</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Python Developer (Fresher)</h3>
+<p>
+Hands-on experience building Flask applications,
+responsive websites, and database-driven projects.
+</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Achievements</h2>
+
+<div class="card">
+<ul>
+<li>Built multiple Flask web applications.</li>
+<li>Learning Full Stack Development.</li>
+<li>Strong interest in programming and UI design.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Tusha Yadav | Python Developer Portfolio
+</footer>
+
+</div>
+
+</body>
+</html>
